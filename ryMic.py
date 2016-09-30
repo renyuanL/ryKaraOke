@@ -278,16 +278,12 @@ class Ry麥類:
         print('wav錄放音線程().... 音檔名= ', 音檔名)
         
 
-        音檔名們= [ 'rySongs/ry_GangHui16K03C_JC18_2001_江蕙_家後_官方MV.wav',
-                    'rySongs/ryNadasosoRimi16K03C.wav',
-                    'rySongs/ryTokiDo16K03C.wav',
-                    'rySongs/ry_16K03C_木蘭の涙.wav'
-                    ]
+
         
-        音檔名們= [ 'rySongs/ry_GangHui16K03C_JC18_2001_江蕙_家後_官方MV.wav',
+        音檔名們= [ 'rySongs/ry_GangHui16K03C.wav',
                     'rySongs/ryTokiDo16K03C.wav',
                     'rySongs/ryNadasosoRimi16K03C.wav',                   
-                    'rySongs/ry_16K03C_木蘭の涙.wav',
+                    'rySongs/ry_16K03C.wav',
                     ] 
         # 目前只有這2檔案 有 歌詞時間點
         

@@ -133,7 +133,7 @@ LrcGeau= {
 '''
 
 LrcDic= {
-    'rySongs/ry_GangHui16K03C_JC18_2001_江蕙_家後_官方MV.wav':LrcGeau,
+    'rySongs/ry_GangHui16K03C.wav':LrcGeau,
     'rySongs/ryTokiDo16K03C.wav':LrcToki
     }
 
