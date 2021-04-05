@@ -1,3 +1,5 @@
+from __future__ import division
+
 '''
 ryPitch__.py
 
@@ -9,11 +11,27 @@ ryF0Estimate000.py
 
 '''
 
-from __future__ import division
+'''
+__main__:184: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+__main__:185: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+D:\OneDrive\___PyConJP2019\ryKaraOke-master\ryPitch__.py:191: MatplotlibDeprecationWarning: The find function was deprecated in version 2.2.
+  start = find(d > 0)[0]
+start = find(d > 0)[0] 此行有 bug, 先擋一下吧。
+'''
+
+
+
 
 from numpy.fft import rfft
 from numpy import argmax, mean, diff, log, log2
-from matplotlib.mlab import find
+
+#from matplotlib.mlab import find
+
+import numpy as np
+def find(condition):
+    res, = np.nonzero(np.ravel(condition))
+    return res
+
 
 try:
     from scipy.signal import blackmanharris, fftconvolve
